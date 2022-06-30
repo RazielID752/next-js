@@ -77,7 +77,7 @@ body {
 }
 
 .button:hover {
-  background: var(--base-color-alt);
+  background: var(--base-testimoni-color);
 }
 
 .divider-1 {
@@ -118,7 +118,7 @@ body {
 }
 
 .section header strong {
-  color: var(--base-color);
+  color: var(--base-color-all);
 }
 
 #header {
@@ -366,14 +366,18 @@ nav.show div.icon-close {
   background: var(--base-color-second);
   border-bottom: var(--base-color-all) 3px solid;
 }
-
-.card i {
+/*card icon service*/
+.card .svg {
   display: block;
-  margin-bottom: 1.5rem;
-  font-size: 5rem;
+  padding-bottom: 0.4rem;
+  font-size: 4rem;
   color: var(--base-color-all);
+  margin: 0 auto;
+  width: 1.4em;
 }
-
+#phone{
+  width: 1.0em;
+}
 .card .title {
   font-size: 1.5rem;
   margin-bottom: 0.75rem;
