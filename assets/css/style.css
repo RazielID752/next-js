@@ -86,7 +86,7 @@ body {
 }
 
 .divider-2 {
-  height: 1px;
+  height: 3px;
   background: var(--divider-color);
 }
 
@@ -288,17 +288,20 @@ nav.show div.icon-close {
 #home .image::before {
   content: '';
   height: 100%;
-  width: 100%;
+  width: 60%;
   background: var(--base-color-second);
   position: absolute;
   top: -16.8%;
-  left: 16.7%;
+  left: 4.7%;
   z-index: 0;
 }
-
+/*size img and block*/
 #home .image img {
+  margin: 0 auto;
   position: relative;
-  right: 2.93rem;
+  display: block;
+  max-width: 55%;
+  /* right: 2.93rem; */
 }
 #home .image img,
 #home .image::before {
@@ -331,7 +334,7 @@ nav.show div.icon-close {
 #about .image::before {
   content: '';
   height: 100%;
-  width: 100%;
+  width: 60%;
   background: var(--base-color-second);
   position: absolute;
   top: -8.3%;
@@ -341,6 +344,9 @@ nav.show div.icon-close {
 
 #about .image img {
   position: relative;
+  display: block;
+  width: 45%;
+  max-width: 55%;
 }
 
 #about .image img,
@@ -378,6 +384,7 @@ nav.show div.icon-close {
 #phone{
   width: 1.0em;
 }
+
 .card .title {
   font-size: 1.5rem;
   margin-bottom: 0.75rem;
@@ -486,6 +493,7 @@ nav.show div.icon-close {
   color: var(--base-color);
 }
 
+
 /* ====== FOOTER ============================ */
 
 footer {
@@ -501,7 +509,10 @@ footer .brand p {
   color: var(--title-color-two);
   font-weight: 500;
 }
-
+footer .brand .social-svg{
+  width: 1em;
+  font-size: 3.5em;
+}
 footer .brand p + p {
   margin-top: 0.75rem;
 }
@@ -522,6 +533,19 @@ footer .social a {
 
 footer .social a:hover {
   transform: translateY(-10px);
+}
+footer .redes-soci{
+  padding-bottom: 10px
+}
+.social .text-app p{
+  font-size: 1.4em;
+  color: var(--title-color-two);
+  font-weight: 700;
+  margin-bottom: 1.0em;
+}
+footer .social .svg-app{
+  width: 1.0em;
+  font-size: 10em;
 }
 
 /* Back to TOP */
